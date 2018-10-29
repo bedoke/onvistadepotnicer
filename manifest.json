@@ -1,0 +1,15 @@
+{
+  "name": "Onvista Depot Nicer",
+  "version": "1.0",
+  "description": "Most people destroy their returns through their psyche. Be a better investor. This plugin will help you to ignore current prices by removing the green and red font colors from your Onvista depot and replacing charts with cat images. At first glance, you can no longer be influenced by the courses and make it easier to set off.",
+  "author": "Kevin Berg",
+  "permissions": [
+      "activeTab"
+    ],
+  "content_scripts": [{
+    "css": ["nicerstyle.css"],
+    "js": ["nicerscript.js"],
+    "matches": ["https://onvista-bank.de/*", "https://webtrading.onvista-bank.de/*"]
+  }],
+  "manifest_version": 2
+}

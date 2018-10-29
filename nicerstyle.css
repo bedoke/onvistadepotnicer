@@ -1,0 +1,15 @@
+/* Remove green and red font colors */
+.green-color, .red-color{
+    color: #53565a !important;
+}
+
+/* Remove the charts */
+svg{
+    display: none !important;
+}
+
+/* Set cats to the chart containers :-) */
+.chart-block{
+    background-image: url('http://www.randomkittengenerator.com/cats/rotator.php') !important;
+    background-size: contain !important;
+}
